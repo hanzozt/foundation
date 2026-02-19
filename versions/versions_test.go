@@ -179,7 +179,7 @@ func Test_Compare(t *testing.T) {
 	req.Equal("2.0.0-rc2", rc.String())
 	req.True(rc.Equals(MustParseSemVer("2.0.0-rc2")))
 
-	// version reported by ziti-ci(git describe --tags) when not on a tagged commit
+	// version reported by zt-ci(git describe --tags) when not on a tagged commit
 	rc1, err := ParseSemVer("2.0.0-rc2-5-abcdef")
 	req.NoError(err)
 	req.Equal("2.0.0-rc2-5-abcdef", rc1.String())
