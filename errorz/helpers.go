@@ -6,9 +6,9 @@ import (
 )
 
 const (
-	WwwAuthRealmPrimaryExtJwt   = "openziti-primary-ext-jwt"
-	WwwAuthRealmSecondaryExtJwt = "openziti-secondary-ext-jwt"
-	WwwAuthRealmOidc            = "openziti-oidc"
+	WwwAuthRealmPrimaryExtJwt   = "hanzozt-primary-ext-jwt"
+	WwwAuthRealmSecondaryExtJwt = "hanzozt-secondary-ext-jwt"
+	WwwAuthRealmOidc            = "hanzozt-oidc"
 	WwwAuthRealmZtSession       = "zt-session"
 
 	WwwAuthErrorMissing = "missing"

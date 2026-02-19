@@ -18,7 +18,7 @@ package sequence
 
 import (
 	"fmt"
-	"github.com/openziti/foundation/v2/info"
+	"github.com/hanzozt/foundation/v2/info"
 	"github.com/speps/go-hashids"
 	"math/rand"
 	"sync/atomic"

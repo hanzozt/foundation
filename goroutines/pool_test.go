@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	concurrenz2 "github.com/openziti/foundation/v2/concurrenz"
+	concurrenz2 "github.com/hanzozt/foundation/v2/concurrenz"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-module github.com/openziti/foundation/v2
+module github.com/hanzozt/foundation/v2
 
 go 1.24.0
 
